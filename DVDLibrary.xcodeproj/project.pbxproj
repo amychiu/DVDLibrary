@@ -33,6 +33,9 @@
 		3A92B81918C306FC00F20F41 /* LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A92B81818C306FC00F20F41 /* LibraryViewController.m */; };
 		3ABBC8CE18C023BA005EFF0E /* MovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBC8CD18C023BA005EFF0E /* MovieTableViewCell.m */; };
 		3AEDE90D18C2C174001C235C /* MovieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEDE90C18C2C174001C235C /* MovieTableViewController.m */; };
+		858A097618C3CDBD00F33685 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 858A097518C3CDBD00F33685 /* SearchViewController.m */; };
+		858A097918C41E4500F33685 /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 858A097818C41E4500F33685 /* SplashScreenViewController.m */; };
+		858A097D18C42D7B00F33685 /* movieMontage.png in Resources */ = {isa = PBXBuildFile; fileRef = 858A097C18C42D7B00F33685 /* movieMontage.png */; };
 		A5DF858318C0FE8300F16C87 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DF858218C0FE8300F16C87 /* Movie.m */; };
 		A5DF858C18C118F300F16C87 /* MovieCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DF858B18C118F300F16C87 /* MovieCollectionViewCell.m */; };
 /* End PBXBuildFile section */
@@ -84,6 +87,11 @@
 		3ABBC8CD18C023BA005EFF0E /* MovieTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovieTableViewCell.m; path = DVDLibrary/UI/MovieTableViewCell.m; sourceTree = SOURCE_ROOT; };
 		3AEDE90B18C2C174001C235C /* MovieTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTableViewController.h; sourceTree = "<group>"; };
 		3AEDE90C18C2C174001C235C /* MovieTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTableViewController.m; sourceTree = "<group>"; };
+		858A097418C3CDBD00F33685 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = DVDLibrary/Controllers/SearchViewController.h; sourceTree = SOURCE_ROOT; };
+		858A097518C3CDBD00F33685 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = DVDLibrary/Controllers/SearchViewController.m; sourceTree = SOURCE_ROOT; };
+		858A097718C41E4500F33685 /* SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
+		858A097818C41E4500F33685 /* SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
+		858A097C18C42D7B00F33685 /* movieMontage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = movieMontage.png; path = ../movieMontage.png; sourceTree = "<group>"; };
 		A5DF858018C0FE5000F16C87 /* MovieTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTableViewCell.h; sourceTree = "<group>"; };
 		A5DF858118C0FE8300F16C87 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
 		A5DF858218C0FE8300F16C87 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
@@ -161,6 +169,7 @@
 		3A6E831518BEBD0100F7210C /* DVDLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				858A097C18C42D7B00F33685 /* movieMontage.png */,
 				3A6E832118BEBD0100F7210C /* Main.storyboard */,
 				A5DF857718C0FBC400F16C87 /* Controllers */,
 				A5DF857618C0FB9E00F16C87 /* Model */,
@@ -236,6 +245,10 @@
 				3A8597F418C3A4EC000A918E /* MovieCollectionViewController.m */,
 				3A92B81718C306FC00F20F41 /* LibraryViewController.h */,
 				3A92B81818C306FC00F20F41 /* LibraryViewController.m */,
+				858A097418C3CDBD00F33685 /* SearchViewController.h */,
+				858A097518C3CDBD00F33685 /* SearchViewController.m */,
+				858A097718C41E4500F33685 /* SplashScreenViewController.h */,
+				858A097818C41E4500F33685 /* SplashScreenViewController.m */,
 				3A349AD618C28278007759CE /* SuggestionViewController.h */,
 				3A349AD718C28278007759CE /* SuggestionViewController.m */,
 			);
@@ -325,6 +338,7 @@
 				3A49ABD018C3ECB6004B0068 /* list-26.png in Resources */,
 				3A49ABC418C3E622004B0068 /* list_ingredients-32.png in Resources */,
 				3A6E831A18BEBD0100F7210C /* InfoPlist.strings in Resources */,
+				858A097D18C42D7B00F33685 /* movieMontage.png in Resources */,
 				3A49ABCE18C3E7E2004B0068 /* slot_machine-32.png in Resources */,
 				3A6E832318BEBD0100F7210C /* Main.storyboard in Resources */,
 			);
@@ -350,11 +364,14 @@
 				3AEDE90D18C2C174001C235C /* MovieTableViewController.m in Sources */,
 				3A6E832018BEBD0100F7210C /* AppDelegate.m in Sources */,
 				3ABBC8CE18C023BA005EFF0E /* MovieTableViewCell.m in Sources */,
+				858A097918C41E4500F33685 /* SplashScreenViewController.m in Sources */,
 				A5DF858318C0FE8300F16C87 /* Movie.m in Sources */,
 				3A8597F518C3A4EC000A918E /* MovieCollectionViewController.m in Sources */,
 				3A49ABD318C3FE86004B0068 /* DetailViewController.m in Sources */,
 				3A349AD818C28278007759CE /* SuggestionViewController.m in Sources */,
 				3A6E831C18BEBD0100F7210C /* main.m in Sources */,
+				858A097618C3CDBD00F33685 /* SearchViewController.m in Sources */,
+				A5DF858918C0FE8B00F16C87 /* MovieCollectionViewController.m in Sources */,
 				A5DF858C18C118F300F16C87 /* MovieCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

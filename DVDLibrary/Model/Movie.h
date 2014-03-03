@@ -11,9 +11,11 @@
 @interface Movie : NSObject
 
 @property (nonatomic,strong) NSString *title;
-@property (nonatomic,strong) NSString *genre;
-@property (nonatomic,strong) NSString *description;
+@property (nonatomic,strong) NSMutableArray *genre;
+@property (nonatomic,strong) NSString *synopsis;
 @property (nonatomic,strong) UIImage *image;
 @property (nonatomic,strong) NSURL *url;
-
+@property (nonatomic,strong) NSString *upc;
+@property (nonatomic,strong) NSString *movieDbId;
+@property (nonatomic,strong) NSString *imdbDbId;
 @end
